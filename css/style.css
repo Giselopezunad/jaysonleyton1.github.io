@@ -1,0 +1,138 @@
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+
+ /* ESTAS SON LAS ETIQUETAS DEL SITIO WEB */
+#contenidos{
+
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: gray;
+
+}
+
+
+body {
+background-image: url(../img/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
+}
+
+h1 {
+
+	font-family: 'Oswald', sans-serif;
+	margin-left: 10px; 
+	font-size: 40px;
+	text-align: center;	
+}
+
+h2 {
+
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-left: 10px; 
+	font-size: 20px;
+	text-align: center;	
+}
+
+header{ 
+    width: 1000px;
+    height: 120px;
+    background: orange;
+
+
+}
+
+nav { 
+
+    width: 1000px;
+    height: 50px;
+    background: gray;
+    border-radius: 10px;
+
+}
+
+ul {
+
+	margin: auto;
+	padding-top: 4px;
+	background: red;
+	border-radius: 10px;
+
+}
+
+li { 
+
+   float: left;
+   list-style-type: none;
+   padding: 10px;
+   background:white;
+   margin: 3px; 
+   border-radius: 10px;
+
+}
+
+
+section {
+   width: 700px;
+   background:white;
+   height: 1500px;
+   float:left;
+   margin-top: 20px;
+   border-radius: 10px;
+}
+
+
+aside{
+	width: 280px;
+	background: white;
+	height: 800px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+
+footer {
+	width: 1000px;
+	height: 170px;
+	background: gray;
+	float:left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+}
+/* ESTAS SON LAS CLASES DEL SITIO WEB*/
+
+
+.ancho_menu_home{ width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link {padding:7px; color:red; text-decoration:none;}
+.menu:visited{padding:7px;color:red; text-decoration:none;}
+.menu:hover{padding:7px;color:red; text-decoration:none;}
+.menu:active{padding:7px;color:red; text-decoration:none;}
+
+.video-responsive {
+position: relative;
+padding-bottom: 56.25%; 
+padding-top: 300px; 
+height: 0;
+overflow: hidden;
+}
+ 
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
